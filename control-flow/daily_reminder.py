@@ -50,18 +50,18 @@ match priority:
 
     case "high":
         if time_bound == "yes":
-            print(f"{task} requires immediate attention today.")
+            print(f"Reminder: {task} requires immediate attention today!")
         else:
             print(f"{task} is high prioriy task. It requires immediate attendtion.")
 
     case "medium":
         if time_bound == "yes":
-            print(f"{task} requires attendtion at the scheduled time.")
+            print(f"Reminder: {task} requires attendtion at the scheduled time!")
         else:
             print(f"{task} needs to be done.")
 
     case "low":
         if time_bound == "yes":
-            print(f"{task} task is yet to be done.")
+            print(f"Reminder: {task} task is yet to be done!")
         else:
-            print(f"{task} is a low priority task. Consider completing it when you have free time.")
+            print(f"Note: {task} is a low priority task. Consider completing it when you have free time.")
