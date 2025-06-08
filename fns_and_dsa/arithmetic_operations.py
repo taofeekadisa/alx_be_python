@@ -44,7 +44,7 @@ The checker will use this main.py to import your arithmetic_operations.py script
 
 '''
 
-def perform_operation(num1:float, num2:float, operation:str):
+def perform_operation(num1, num2, operation):
     match operation.lower():
         case "add":
             return num1 + num2
