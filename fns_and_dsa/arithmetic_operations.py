@@ -45,21 +45,22 @@ The checker will use this main.py to import your arithmetic_operations.py script
 '''
 
 def perform_operation(num1, num2, operation):
-    match operation.lower():
-        case "add":
-            return num1 + num2
+    if operation.lower() == "add":
+        return num1 + num2
 
-        case "subtract":
-            return num1 - num2
+    elif operation.lower() == "subtract":
+        return num1 - num2
 
-        case "multiply":
-            return num1 * num2
+    elif operation.lower() == "multiply":
+        return num1 * num2
 
-        case "divide":
-            if num2 == 0:
-                print("Cannot divide by zero.")
-            else:
+    elif operation.lower() ==  "divide":
+        if num2 == 0:
+            print("Cannot divide by zero.")
+        else:
                 return num1 / num2
+    else:
+         print("Enter a valid operation")
             
-result = perform_operation(2, 4, "Multiply")
+result = perform_operation(2, 0, "divide")
 print(result)
