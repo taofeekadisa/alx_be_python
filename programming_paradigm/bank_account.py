@@ -94,13 +94,17 @@ class BankAccount:
     def display_balance(self):
         print(f"Current Balance: ${self.account_balance}")
 
-    
+
+
+
+"""
+
 account1 = BankAccount()
 
 print("--------Deposting money-------")
 account1.deposit(100)
 
-print("\n--------Deposting money invalid amount-------")
+print("--------Deposting money invalid amount-------")
 account1.deposit(-1)
 
 print("\n--------Withdrawing money with sufficient fund-------")
@@ -112,3 +116,4 @@ account1.withdraw(500)
 print("\n----------Displaying Account Balance-----------")
 account1.display_balance()
 
+"""
