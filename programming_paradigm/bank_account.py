@@ -94,31 +94,27 @@ class BankAccount:
             return f"Withdrew: ${amount:.1f}"
 
     def display_balance(self):
-        return f"Current Balance: ${self.account_balance:.2f}"
+        print(f"Current Balance: ${self.account_balance:.2f}")
 
 
 
 
-
-
-
-"""
 
 account1 = BankAccount()
 
-print("--------Deposting money-------")
+print("\n--------Deposting money-------")
 account1.deposit(100)
 
-print("--------Deposting money invalid amount-------")
+print("\n--------Deposting money invalid amount-------")
 account1.deposit(-1)
 
 print("\n--------Withdrawing money with sufficient fund-------")
 account1.withdraw(50)
 
 print("\n---------Withdrawing money without sufficient fund--------")
-account1.withdraw(500)
+print(account1.withdraw(500))
 
 print("\n----------Displaying Account Balance-----------")
 account1.display_balance()
 
-"""
+
