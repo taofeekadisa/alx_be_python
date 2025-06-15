@@ -67,6 +67,8 @@ def safe_divide(numerator, denominator):
         print("The result of the division is 2.0")
 
 
+
+"""
 print("\n------------Test for correct argument------------")
 safe_divide(3, 8)
 
@@ -77,3 +79,4 @@ safe_divide(3, 0)
 
 print("\n------------Test for non-numeric input------------")
 safe_divide("9", "g")
+"""
