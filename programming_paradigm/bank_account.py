@@ -89,9 +89,9 @@ class BankAccount:
             print("Please enter a valid amount to withdraw.")
         elif amount > self.account_balance:
             return "Insufficient funds."
-        else:
-            self.account_balance -= amount
-            return f"Withdrew: ${amount:.1f}"
+       
+        self.account_balance -= amount
+        return f"Withdrew: ${amount:.1f}"
 
     def display_balance(self):
         print(f"Current Balance: ${self.account_balance:.2f}")
