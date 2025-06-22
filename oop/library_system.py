@@ -98,7 +98,8 @@ class Library:
         self.books.append(book)
 
     def list_books(self):
-        return [f"{self.__class__.__name__}: {book}" for book in self.books]
+        for book in self.books:
+            print(f"{book}")
 
 
 
