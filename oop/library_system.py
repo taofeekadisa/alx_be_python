@@ -65,7 +65,7 @@ PrintBook: The Catcher in the Rye by J.D. Salinger, Page Count: 234
 
 class Book:
     def __init__(self, title : str, author : str):
-        self.title = author
+        self.title = title
         self.author = author
 
     def __str__(self):
@@ -99,7 +99,7 @@ class Library:
 
     def list_books(self):
         for book in self.books:
-            return "\n".join(f"{book}" for book in self.books)
+            print(book)
 
 
 
