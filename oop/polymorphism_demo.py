@@ -85,8 +85,8 @@ class Circle(Shape):
     
 
 
-my_rectangle = Rectangle(4, 2)
-my_circle = Circle(4)
+# my_rectangle = Rectangle(4, 2)
+# my_circle = Circle(4)
 
-print(my_rectangle.area())
-print(my_circle.area())
+# print(my_rectangle.area())
+# print(my_circle.area())
