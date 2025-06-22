@@ -77,7 +77,7 @@ class Calculator:
         return f"The product is: {(a * b):.0f}"
     
 
-print(Calculator.add(2, 4))
+# print(Calculator.add(2, 4))
 
-print(Calculator.multiply(2, 4))
+# print(Calculator.multiply(2, 4))
 
