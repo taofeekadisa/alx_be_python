@@ -65,10 +65,10 @@ class Book:
     
 
 
-my_book = Book("1984", "George Orwell", 1949)
+# my_book = Book("1984", "George Orwell", 1949)
 
-print(my_book)
+# print(my_book)
 
-print(repr(my_book))
+# print(repr(my_book))
 
-del my_book
+# del my_book
