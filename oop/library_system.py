@@ -99,7 +99,7 @@ class Library:
 
     def list_books(self):
         for book in self.books:
-            return (f"{book}")
+            return "\n".join(f"{book}" for book in self.books)
 
 
 
